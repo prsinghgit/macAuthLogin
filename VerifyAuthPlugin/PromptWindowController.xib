@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PromptWindowController">
+            <connections>
+                <outlet property="backdropWindow" destination="rfH-Ub-z0a" id="JNw-73-NcN"/>
+                <outlet property="okayButtonOutlet" destination="33J-hf-bL5" id="XXL-vk-v9V"/>
+                <outlet property="textAction" destination="waG-v8-d9j" id="tVk-0X-uqg"/>
+                <outlet property="textHelpDesk" destination="7za-ha-cSy" id="odl-Be-gAg"/>
+                <outlet property="textInstructions" destination="WSX-ba-piV" id="zYY-kb-LBk"/>
+                <outlet property="textSubTitle" destination="JrT-c1-nKz" id="wNe-a8-RAw"/>
+                <outlet property="textTitle" destination="Id4-Mv-63p" id="W7z-K7-QRX"/>
+                <outlet property="window" destination="ckJ-Vg-GAS" id="odM-8k-9va"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" visibleAtLaunch="NO" animationBehavior="default" id="ckJ-Vg-GAS" userLabel="Prompt Window">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <rect key="contentRect" x="636" y="390" width="610" height="460"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <value key="maxSize" type="size" width="610" height="460"/>
+            <view key="contentView" id="QRU-8i-mSq">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="460"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Id4-Mv-63p">
+                        <rect key="frame" x="169" y="426" width="273" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="269" id="u4N-WC-nOU"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="Admin Account Login Detected" id="Ueh-9Q-DEx">
+                            <font key="font" metaFont="system" size="19"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="waG-v8-d9j">
+                        <rect key="frame" x="234" y="53" width="143" height="19"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="You Shall Not Pass" id="dJE-79-rBu">
+                            <font key="font" metaFont="system" size="16"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrT-c1-nKz">
+                        <rect key="frame" x="21" y="403" width="568" height="15"/>
+                        <textFieldCell key="cell" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="Policy does not allow this account to login interactively" id="jDc-qs-HGF">
+                            <font key="font" metaFont="system" size="12.5"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WSX-ba-piV">
+                        <rect key="frame" x="166" y="376" width="278" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="274" id="Bpw-5a-RyD"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" placeholderString="Login with a Standard Account" id="NGh-Ti-Obd">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Afk-6o-FOi">
+                        <rect key="frame" x="105" y="117" width="400" height="247"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="394" id="3Bf-mM-RRd"/>
+                        </constraints>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" imageFrameStyle="grayBezel" image="you_shall_not_pass" id="v4M-Jh-j1w"/>
+                    </imageView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="33J-hf-bL5">
+                        <rect key="frame" x="270" y="13" width="71" height="32"/>
+                        <buttonCell key="cell" type="push" title="Okay" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qau-vM-1PB">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7za-ha-cSy">
+                        <rect key="frame" x="92" y="80" width="426" height="32"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" title="If you need assistance, please contact the HelpDesk (301) 555-5555 http://helpdesk.com/iwaspromptedwiththeyoushallnotpassthing" id="K49-UJ-CwY">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Afk-6o-FOi" firstAttribute="centerX" secondItem="7za-ha-cSy" secondAttribute="centerX" id="2OZ-Gx-Lmb"/>
+                    <constraint firstItem="JrT-c1-nKz" firstAttribute="top" secondItem="Id4-Mv-63p" secondAttribute="bottom" constant="8" symbolic="YES" id="2Z2-y3-Kkc"/>
+                    <constraint firstItem="waG-v8-d9j" firstAttribute="centerX" secondItem="33J-hf-bL5" secondAttribute="centerX" id="5v5-ju-ezK"/>
+                    <constraint firstItem="WSX-ba-piV" firstAttribute="centerX" secondItem="QRU-8i-mSq" secondAttribute="centerX" id="8mD-P3-eYl"/>
+                    <constraint firstItem="Afk-6o-FOi" firstAttribute="top" secondItem="WSX-ba-piV" secondAttribute="bottom" constant="15" id="Db9-fW-WHM"/>
+                    <constraint firstItem="WSX-ba-piV" firstAttribute="centerX" secondItem="Afk-6o-FOi" secondAttribute="centerX" id="HIN-Yc-gFE"/>
+                    <constraint firstAttribute="bottom" secondItem="33J-hf-bL5" secondAttribute="bottom" constant="20" symbolic="YES" id="J4C-sr-fDc"/>
+                    <constraint firstItem="WSX-ba-piV" firstAttribute="top" secondItem="JrT-c1-nKz" secondAttribute="bottom" constant="11" id="LcM-OH-xjn"/>
+                    <constraint firstItem="7za-ha-cSy" firstAttribute="centerX" secondItem="waG-v8-d9j" secondAttribute="centerX" id="LzB-LP-kBH"/>
+                    <constraint firstItem="7za-ha-cSy" firstAttribute="top" secondItem="Afk-6o-FOi" secondAttribute="bottom" constant="8" symbolic="YES" id="NS4-HG-wuo"/>
+                    <constraint firstItem="waG-v8-d9j" firstAttribute="top" secondItem="7za-ha-cSy" secondAttribute="bottom" constant="8" symbolic="YES" id="XsQ-vg-VfB"/>
+                    <constraint firstItem="Id4-Mv-63p" firstAttribute="top" secondItem="QRU-8i-mSq" secondAttribute="top" constant="12" id="cBC-pH-Mku"/>
+                    <constraint firstItem="JrT-c1-nKz" firstAttribute="centerX" secondItem="WSX-ba-piV" secondAttribute="centerX" id="cNA-M0-XeI"/>
+                    <constraint firstItem="Id4-Mv-63p" firstAttribute="centerX" secondItem="JrT-c1-nKz" secondAttribute="centerX" id="q1J-eU-Odq"/>
+                    <constraint firstItem="33J-hf-bL5" firstAttribute="top" secondItem="waG-v8-d9j" secondAttribute="bottom" constant="12" id="sf9-ra-LGI"/>
+                    <constraint firstItem="JrT-c1-nKz" firstAttribute="leading" secondItem="QRU-8i-mSq" secondAttribute="leading" constant="23" id="vGv-4H-jhQ"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="476" y="433"/>
+        </window>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="rfH-Ub-z0a" userLabel="Grey Background" customClass="BorderlessWindow">
+            <rect key="contentRect" x="163" y="199" width="268" height="83"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="7qV-AX-cut">
+                <rect key="frame" x="0.0" y="0.0" width="268" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <point key="canvasLocation" x="170" y="767.5"/>
+        </window>
+    </objects>
+    <resources>
+        <image name="you_shall_not_pass" width="1167.2666015625" height="700.5623779296875"/>
+    </resources>
+</document>

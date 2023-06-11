@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88042ABC2A35D6B600BD0595 /* Mechanism.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042ABB2A35D6B600BD0595 /* Mechanism.m */; };
+		88042AC42A35EF5500BD0595 /* StopAdminLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AC32A35EF5500BD0595 /* StopAdminLogin.m */; };
+		88042AD52A36132000BD0595 /* BorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AD42A36132000BD0595 /* BorderlessWindow.m */; };
+		88042AD92A36140800BD0595 /* PromptWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88042AD82A36140800BD0595 /* PromptWindowController.m */; };
+		88042ADC2A36161900BD0595 /* PromptWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88042ADB2A36161900BD0595 /* PromptWindowController.xib */; };
+		888CEB0F2A338DBE00787509 /* AuthorizationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 888CEB0E2A338DBE00787509 /* AuthorizationPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88042ABA2A35D6B600BD0595 /* Mechanism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mechanism.h; sourceTree = "<group>"; };
+		88042ABB2A35D6B600BD0595 /* Mechanism.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mechanism.m; sourceTree = "<group>"; };
+		88042AC22A35EF5500BD0595 /* StopAdminLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopAdminLogin.h; sourceTree = "<group>"; };
+		88042AC32A35EF5500BD0595 /* StopAdminLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopAdminLogin.m; sourceTree = "<group>"; };
+		88042AD32A36132000BD0595 /* BorderlessWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
+		88042AD42A36132000BD0595 /* BorderlessWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
+		88042AD72A36140800BD0595 /* PromptWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptWindowController.h; sourceTree = "<group>"; };
+		88042AD82A36140800BD0595 /* PromptWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromptWindowController.m; sourceTree = "<group>"; };
+		88042ADB2A36161900BD0595 /* PromptWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromptWindowController.xib; sourceTree = "<group>"; };
+		888CEB032A338D2F00787509 /* VerifyAuthPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerifyAuthPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		888CEB062A338D2F00787509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888CEB0D2A338DBE00787509 /* AuthorizationPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationPlugin.h; sourceTree = "<group>"; };
+		888CEB0E2A338DBE00787509 /* AuthorizationPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationPlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888CEB002A338D2F00787509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888CEAFA2A338D2F00787509 = {
+			isa = PBXGroup;
+			children = (
+				888CEB052A338D2F00787509 /* VerifyAuthPlugin */,
+				888CEB042A338D2F00787509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888CEB042A338D2F00787509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888CEB032A338D2F00787509 /* VerifyAuthPlugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888CEB052A338D2F00787509 /* VerifyAuthPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				888CEB062A338D2F00787509 /* Info.plist */,
+				888CEB0D2A338DBE00787509 /* AuthorizationPlugin.h */,
+				888CEB0E2A338DBE00787509 /* AuthorizationPlugin.m */,
+				88042ABA2A35D6B600BD0595 /* Mechanism.h */,
+				88042ABB2A35D6B600BD0595 /* Mechanism.m */,
+				88042AC22A35EF5500BD0595 /* StopAdminLogin.h */,
+				88042AC32A35EF5500BD0595 /* StopAdminLogin.m */,
+				88042AD32A36132000BD0595 /* BorderlessWindow.h */,
+				88042AD42A36132000BD0595 /* BorderlessWindow.m */,
+				88042AD72A36140800BD0595 /* PromptWindowController.h */,
+				88042AD82A36140800BD0595 /* PromptWindowController.m */,
+				88042ADB2A36161900BD0595 /* PromptWindowController.xib */,
+			);
+			path = VerifyAuthPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888CEB022A338D2F00787509 /* VerifyAuthPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888CEB092A338D2F00787509 /* Build configuration list for PBXNativeTarget "VerifyAuthPlugin" */;
+			buildPhases = (
+				888CEAFF2A338D2F00787509 /* Sources */,
+				888CEB002A338D2F00787509 /* Frameworks */,
+				888CEB012A338D2F00787509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerifyAuthPlugin;
+			productName = VerifyAuthPlugin;
+			productReference = 888CEB032A338D2F00787509 /* VerifyAuthPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888CEAFB2A338D2F00787509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					888CEB022A338D2F00787509 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 888CEAFE2A338D2F00787509 /* Build configuration list for PBXProject "VerifyAuthPlugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888CEAFA2A338D2F00787509;
+			productRefGroup = 888CEB042A338D2F00787509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888CEB022A338D2F00787509 /* VerifyAuthPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888CEB012A338D2F00787509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88042ADC2A36161900BD0595 /* PromptWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888CEAFF2A338D2F00787509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888CEB0F2A338DBE00787509 /* AuthorizationPlugin.m in Sources */,
+				88042ABC2A35D6B600BD0595 /* Mechanism.m in Sources */,
+				88042AD52A36132000BD0595 /* BorderlessWindow.m in Sources */,
+				88042AC42A35EF5500BD0595 /* StopAdminLogin.m in Sources */,
+				88042AD92A36140800BD0595 /* PromptWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		888CEB072A338D2F00787509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		888CEB082A338D2F00787509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		888CEB0A2A338D2F00787509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VerifyAuthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.LoginPlugin.VerifyAuthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		888CEB0B2A338D2F00787509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VerifyAuthPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.LoginPlugin.VerifyAuthPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888CEAFE2A338D2F00787509 /* Build configuration list for PBXProject "VerifyAuthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888CEB072A338D2F00787509 /* Debug */,
+				888CEB082A338D2F00787509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888CEB092A338D2F00787509 /* Build configuration list for PBXNativeTarget "VerifyAuthPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888CEB0A2A338D2F00787509 /* Debug */,
+				888CEB0B2A338D2F00787509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888CEAFB2A338D2F00787509 /* Project object */;
+}
