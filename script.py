@@ -3,7 +3,7 @@ import sys
 
 def main():
     # Example logic
-    success = False  # Replace with your condition
+    success = True  # Replace with your condition
     
     if success:
         print("Script completed successfully.")
