@@ -18,6 +18,7 @@
                             styleMask:NSWindowStyleMaskBorderless
                               backing:bufferingType
                                 defer:flag];
+    NSLog("created Pull request")
     return self;
 }
 
